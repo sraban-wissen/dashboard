@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "key": "Open Cases",
+      "value": 10
+    },
+    {
+      "key": "Closed Cases",
+      "value": 20
+    },
+    {
+      "key": "Pending Cases",
+      "value": 30
+    },
+    {
+      "key": "Reviewed Cases",
+      "value": 40
+    }
+  ],
+  "statusCode": "OK",
+  "statusCodeValue": 200
+}
