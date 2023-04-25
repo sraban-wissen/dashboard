@@ -13,7 +13,7 @@
       },
       "serviceMaster": {
         "serviceId": 1,
-        "uri": "https://raw.githubusercontent.com/sraban-wissen/dashboard/main/layout.json",
+        "uri": "https://raw.githubusercontent.com/sraban-wissen/dashboard/main/tabular.json",
         "valueType": "JSON",
         "method": "GET",
         "input": "{plantId:<PLANT_ID>,userId:<USER_ID>,companyId:<COMPANY_ID>,dateRange:<DATE_RANGE>}"
