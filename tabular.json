@@ -1,27 +1,25 @@
 {
   "data": {
-    thead: {
-      text: 'SB Implementation'
+    "thead": {
+      "text": "SB Implementation"
     },
-    tfoot: {
-      text: 'Last Course Attended in LMS'
+    "tfoot": {
+      "text": "Last Course Attended in LMS"
     },
-    tbody: [
+    "tbody": [
       {
-        col1: 'Implemented',
-        col2: '10'
+        "col1": "Implemented",
+        "col2": "10"
       },
       {
-        col1: 'Critical',
-        col2: '1000'
+        "col1": "Critical",
+        "col2": "1000"
       },
       {
-        col1: 'New',
-        col2: '2000'
-      },
-      
-    ],
-    
+        "col1": "New",
+        "col2": "2000"
+      }
+    ]
   },
   "statusCode": "OK",
   "statusCodeValue": 200
