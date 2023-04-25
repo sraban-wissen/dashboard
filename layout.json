@@ -27,12 +27,12 @@
       "aggregatorId": 2,
       "data": {
         "Closed Cases": "10",
-        "header": "progress_bar",
+        "header": "Something Important",
         "Open Cases": "19"
       },
       "serviceMaster": {
         "serviceId": 1,
-        "uri": "https://my.api.mockaroo.com/progress-bar.json?key=7a82d420",
+        "uri": "https://raw.githubusercontent.com/sraban-wissen/dashboard/main/progress-bar.json",
         "valueType": "JSON",
         "method": "GET",
         "input": "{plantId:<PLANT_ID>,userId:<USER_ID>,companyId:<COMPANY_ID>,dateRange:<DATE_RANGE>}"
