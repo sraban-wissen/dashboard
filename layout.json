@@ -1,0 +1,48 @@
+{
+  "headers": {
+    
+  },
+  "body": [
+    {
+      "aggregatorId": 1,
+      "data": {
+        "size": "2*3",
+        "body_data_path": "{data:[{key1:data},{key2:data}]}",
+        "header": "sanjay",
+        "applicability": "fleet"
+      },
+      "serviceMaster": {
+        "serviceId": 1,
+        "uri": "https://my.api.mockaroo.com/tabular.json?key=7a82d420",
+        "valueType": "JSON",
+        "method": "GET",
+        "input": "{plantId:<PLANT_ID>,userId:<USER_ID>,companyId:<COMPANY_ID>,dateRange:<DATE_RANGE>}"
+      },
+      "widget": {
+        "widgetId": 1,
+        "widgetType": "TABULAR"
+      }
+    },
+    {
+      "aggregatorId": 2,
+      "data": {
+        "Closed Cases": "10",
+        "header": "progress_bar",
+        "Open Cases": "19"
+      },
+      "serviceMaster": {
+        "serviceId": 1,
+        "uri": "https://my.api.mockaroo.com/progress-bar.json?key=7a82d420",
+        "valueType": "JSON",
+        "method": "GET",
+        "input": "{plantId:<PLANT_ID>,userId:<USER_ID>,companyId:<COMPANY_ID>,dateRange:<DATE_RANGE>}"
+      },
+      "widget": {
+        "widgetId": 2,
+        "widgetType": "PROGRESS_BAR"
+      }
+    }
+  ],
+  "statusCode": "OK",
+  "statusCodeValue": 200
+}
